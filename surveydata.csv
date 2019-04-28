@@ -1,0 +1,100 @@
+Age,Salary,Budget,category
+20,4,1000,pub
+30,50,5000,resort
+28,12,2000,pub
+18,1,500,cafe
+47,16,1000,cafe
+24,7,1500,nature
+46,10,500,nature
+36,23,3000,resort
+19,2,2000,adventure
+58,45,10000,fine dining
+47,14,2000,fine dining
+26,18,5000,adventure
+31,5,100,nature
+55,50,10000,art
+42,21,1000,fine dining
+38,25,10000,resort
+22,12,5000,adventure
+27,6,1000,cafe
+22,13,2500,nature
+21,8,2000,cafe
+21,16,5000,adventure
+21,3,500,cafe
+21,14,5000,art
+21,7,500,cafe
+21,8,3000,adventure
+21,14,5000,nature
+44,10,2000,nature
+39,55,10000,resort
+46,30,5000,fine dining
+60,24,10000,resort
+36,19,2000,pub
+39,70,10000,fine dining
+26,34,10000,adventure
+20,1,500,cafe
+33,15,500,art
+47,7,10000,resort
+22,7,500,cafe
+44,11,5000,adventure
+49,9,1000,nature
+65,5,3000,nature
+32,22,5000,fine dining
+45,35,10000,nature
+46,24,5000,art
+24,45,2000,pub
+27,4,500,cafe
+29,19,3000,fine dining
+22,12,1000,art
+21,4,2000,nature
+21,8,500,cafe
+21,13,1000,fine dining
+18,1,1000,nature
+15,1,500,cafe
+17,1,1000,art
+19,2,1000,cafe
+52,6,1000,fine dining
+47,21,5000,resort
+32,10,3000,resort
+21,2,1000,art
+21,10,2000,pub
+21,14,5000,resort
+21,8,1000,cafe
+21,4,500,cafe
+65,4,500,nature
+49,37,5000,resort
+40,15,3000,adventure
+27,22,5000,adventure
+29,5,1000,cafe
+26,13,5000,resort
+36,33,2000,pub
+39,3,500,cafe
+42,9,2000,art
+26,10,1000,art
+29,23,3000,adventure
+25,12,2000,fine dining
+28,5,500,nature
+54,8,5000,resort
+60,4,2000,fine dining
+21,19,3000,pub
+55,45,10000,resort
+21,4,1000,cafe
+35,44,10000,nature
+49,42,10000,resort
+53,2,1000,art
+56,33,5000,resort
+24,26,5000,fine dining
+27,12,2000,pub
+61,56,10000,nature
+33,11,3000,adventure
+48,8,2000,cafe
+21,6,500,cafe
+76,2,1000,art
+65,8,1000,nature
+69,6,5000,resort
+29,6,3000,fine dining
+45,22,5000,adventure
+67,4,1000,nature
+70,2,2000,nature
+25,14,5000,fine dining
+21,12,5000,adventure
