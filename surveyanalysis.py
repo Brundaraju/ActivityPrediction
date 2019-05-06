@@ -7,8 +7,9 @@ from sklearn.metrics import confusion_matrix
 from sklearn.externals import joblib
 from sklearn.metrics import accuracy_score
 
+
 def train():
-    dataset = pd.read_csv('surveydata.csv')
+    dataset = pd.read_csv('analysis_dataset.csv')
     print('Shape of the dataset: ' + str(dataset.shape))
     print(dataset.head())
 
@@ -25,11 +26,16 @@ def train():
     print('The dependent variable: ')
     print(y[:5])
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=21)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.38, random_state=20)
     scaler = StandardScaler()
     X_train = scaler.fit_transform(X_train)
     X_test = scaler.transform(X_test)
-    classifier = RandomForestClassifier(n_estimators=5, criterion='entropy', random_state=42)
+    classifier = RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.005, min_impurity_split=2,
+            min_samples_leaf=70, min_samples_split=120,
+            min_weight_fraction_leaf=0.0, n_estimators=60, n_jobs=-1,
+            oob_score=False, random_state=20, verbose=0, warm_start=False)
     classifier.fit(X_train, y_train)
 
     y_pred = classifier.predict(X_test)
@@ -64,7 +70,7 @@ def categorize(age,salary,budget):
 
 def main():
     train()
-
+    print(categorize(20,7,1000))
 
 if __name__ == '__main__':
     main()
